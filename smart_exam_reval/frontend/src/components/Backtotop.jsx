@@ -32,7 +32,7 @@ export default function BackToTop() {
       className="
         fixed
         bottom-6
-        right-6
+        left-6
         z-50
         flex
         items-center
@@ -40,11 +40,12 @@ export default function BackToTop() {
         w-12
         h-12
         rounded-full
-        bg-primary
-        text-primary-foreground
+        bg-violet-600
+        text-white
         shadow-lg
         transition-all
         duration-300
+        hover:bg-violet-500
         hover:scale-110
         hover:shadow-xl
         active:scale-95
